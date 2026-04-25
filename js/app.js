@@ -10,7 +10,7 @@ const html = document.documentElement;
 // ── Theme ──
 function applyTheme(theme) {
   html.setAttribute('data-theme', theme);
-  themeIcon.src = theme === 'dark' ? 'assets/sun.svg' : 'assets/moon.svg';
+  themeIcon.src = theme === 'dark' ? '../assets/sun.svg' : '../assets/moon.svg';
   localStorage.setItem('theme', theme);
 }
 
