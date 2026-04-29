@@ -183,7 +183,7 @@ function renderTasks() {
     editBtn.className = 'btn-icon';
     editBtn.title     = 'Edit';
     const editIcon    = document.createElement('img');
-    editIcon.src      = '/assets/pencil.svg';
+    editIcon.src      = './assets/pencil.svg';
     editIcon.alt      = 'Edit';
     editIcon.width    = 25;
     editIcon.height   = 25;
@@ -194,7 +194,7 @@ function renderTasks() {
     deleteBtn.className = 'btn-icon';
     deleteBtn.title     = 'Delete';
     const deleteIcon    = document.createElement('img');
-    deleteIcon.src      = '/assets/trash.svg';
+    deleteIcon.src      = './assets/trash.svg';
     deleteIcon.alt      = 'Delete';
     deleteIcon.width    = 20;
     deleteIcon.height   = 20;
